@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.logocolored {
+    width: 300px;
+}
+
+.headerrow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 12px;
+    color: #382c32;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a.active {
+    color: white;
+    background-color: #FF0077;;
+    padding-top: 100%;
+    padding-bottom: 100%;
+}
+
+a.active:hover {
+    color: white
+}
+
+a:hover {
+    color: #FF0077;;
+}
+
+.headercolumn {
+    width: 50%;
+    padding-left: 150px;
+}
+
+.banner{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.servicesrow {
+    display: flex;
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.servicescolumn {
+    width: 25%; 
+    text-align: center;
+}
+
+.servicescolumn h3 {
+    color: #FF0077;
+    font-size: 18px;
+}
+
+.servicescolumn p {
+    color: #858585;
+    font-size: 16px;
+}
+
+.servicescolumn i {
+    color: #FF0077;
+    font-size: 70px;
+}
+
+
+.h1 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.logowhite {
+    width: 300px;   
+}
+
+.logowhitetext {
+    background-color: #0077ff;
+    width: 100%;
+    padding: 130px 230px 130px 230px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.container {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.prodrow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.prodcolumn {
+    width: 16.66%;
+    padding: 30px;
+}
+
+.prodcolumn:hover {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.prodcolumn img:hover {
+    opacity: 30%;
+}
+
+
+
+.prodcolumn p {
+    font-size: 14px;
+    text-align: center;
+    color: #858585;
+    height: 100px;
+}
+
+.prodcolumn h4 {
+    text-align: center;
+    color: #FF0077;
+    font-size: 16px;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.prodcolumn img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+
+.prodbutton {
+    color: white;
+    background-color: #FF0077;
+    border-radius: 10px;
+    width: 110px;
+    height: 30px;
+    border: none;
+}
+
+.buttondiv {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.footerrow {
+    display: flex;
+}
+
+.logofooter {
+    width: 300px;
+}
+
+.footer {
+    background-color: #FF0077;
+    width: 100%;
+    padding: 130px 230px 130px 230px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.footer h4 {
+    font-size: 16px;
+}
+
+.footercolumn {
+    width: 33.33%;
+    align-items: center;
+}
+
+.contato {
+    text-align: left;
+}
+
+.horario {
+    text-align: center;
+}
+
+.socialmedia {
+    text-align: right;
+}
+
+.fa-brands {
+    text-align: right;
+}
+
+
+

@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logocolored {
+    width: 300px;
+}
+
+.headerrow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 12px;
+    color: #382c32;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a.active {
+    color: white;
+    background-color: #FF0077;;
+    padding-top: 100%;
+    padding-bottom: 100%;
+}
+
+a.active:hover {
+    color: white
+}
+
+a:hover {
+    color: #FF0077;;
+}
+
+.headercolumn {
+    width: 50%;
+    padding-left: 150px;
+}
+
+.banner{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.servicesrow {
+    display: flex;
+    align-self: center;
+}
+
+.logowhite {
+    width: 300px;   
+}
+
+.logowhitetext {
+    background-color: blue;
+    width: 100%;
+}
+
+.container {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.prodrow {
+    display: flex;
+    width: 100%;
+}
+
+.prodcolumn {
+    width: 16.66%;
+}
+
+.prodcolumn img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+
+.footerrow {
+    display: flex;
+}
+
