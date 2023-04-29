@@ -9,8 +9,6 @@ body {
     overflow-x: hidden;
 }
 
-/* HEADER */
-
 .logocolored {
     width: 300px;
 }
@@ -35,7 +33,7 @@ a.active {
     color: white;
     background-color: #FF0077;;
     padding-top: 100%;
-    padding-bottom: 33px;
+    padding-bottom: 100%;
 }
 
 a.active:hover {
@@ -51,15 +49,11 @@ a:hover {
     padding-left: 150px;
 }
 
-/* BANNER */
-
 .banner{
     width: 100%;
     height: 800px;
     object-fit: cover;
 }
-
-/* SERVIÇOS */
 
 .servicesrow {
     display: flex;
@@ -91,7 +85,6 @@ a:hover {
     transform: scale(1.5) rotate(10deg);
 }
 
-/* LOGO BRANCA */
 
 .h1 {
     text-align: center;
@@ -126,8 +119,6 @@ a:hover {
     padding-bottom: 40px;
 }
 
-/* PRODUTOS */
-
 .prodrow {
     display: flex;
     width: 100%;
@@ -137,7 +128,6 @@ a:hover {
 .prodcolumn {
     width: 16.66%;
     padding: 30px;
-    box-sizing: border-box;
 }
 
 .prodcolumn:hover {
@@ -157,13 +147,13 @@ a:hover {
     height: 100px;
 }
 
-.prodcolumn h4 {
+/* .prodcolumn h4 {
     text-align: center;
     color: #FF0077;
     font-size: 16px;
     align-items: center;
     padding-bottom: 60px;
-}
+} */
 
 .prodcolumn img {
     width: 100%;
@@ -185,8 +175,6 @@ a:hover {
     padding-top: 20px;
     padding-bottom: 60px;
 }
-
-/* FOOTER */
 
 .footerrow {
     display: flex;

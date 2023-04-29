@@ -71,7 +71,9 @@ a:hover {
     padding-left: 50px;
 }
 
-
+.columntext p {
+    font-size: 18px;
+}
 
 .botao {
     color: white;

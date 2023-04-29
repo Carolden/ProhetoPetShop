@@ -58,7 +58,6 @@ a:hover {
     background-image: linear-gradient(to bottom, #ffffff, #e7e7e7);
     background-position: top;
     background-size: 100% 2px;
-    padding-bottom: 60px;
 
 }
 
@@ -71,7 +70,9 @@ a:hover {
     padding-left: 50px;
 }
 
-
+.column button {
+    margin-left: 50px;
+}
 
 .botao {
     color: white;
@@ -80,8 +81,6 @@ a:hover {
     width: 150px;
     height: 30px;
     border: none;
-    margin-left: 50px;
-    margin-top: 40px;
 }
 
 
