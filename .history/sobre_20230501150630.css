@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-
 body {
     margin: 0;
     border: 0;
@@ -19,7 +18,8 @@ body {
     width: 100%;
     align-items: center;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: px;
+    margin-bottom: 10px;
 }
 
 .menu a {
@@ -50,69 +50,62 @@ a:hover {
     padding-left: 150px;
 }
 
-/* PRODUTOS */
-
-.h1 {
-    padding-left: 200px;
-    font-size: 32px;
-    padding-top: 60px;
-    background-image: linear-gradient(0, #ffffff 0, #ffffff 50%, #faf6f7 100%);
-    margin-top: 0px;
-}
-
-.prodrow {
+.row {
     display: flex;
-    width: 100%;
-    align-items: center;
     padding-left: 150px;
     padding-right: 150px;
-    box-sizing: border-box;
+    padding-top: 100px;
+    background: linear-gradient(to bottom, #ffffff, red);
+    background-position: top;
+    background-size: 100% 2px;
+    padding-bottom: 60px;
+
+
 }
 
-.prodcolumn {
-    width: 16.66%;
-    padding: 30px;
-    box-sizing: border-box;
+.column img {
+    height: 600px;
+    width: 400px;
 }
 
-.prodcolumn:hover {
-    border: 1px solid #ddd;
+.columntext {
+    padding-left: 50px;
+}
+
+
+
+.botao {
+    color: white;
+    background-color: #FF0077;
     border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 40px;
 }
 
-.prodcolumn:hover img {
-    opacity: 30%;
-}
 
 
-.prodcolumn p {
-    font-size: 14px;
-    text-align: center;
-    color: #858585;
-    height: 100px;
-}
 
-.prodcolumn h4 {
-    text-align: center;
-    color: #FF0077;
-    font-size: 16px;
-    align-items: center;
-    padding-bottom: 60px;
-}
 
-.prodcolumn img {
-    width: 100%;
-    height: auto;
-    object-fit: cover; 
-}
 
-.buttondiv {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 60px;
-}
 
-/* FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footerrow {
     display: flex;

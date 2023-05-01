@@ -53,11 +53,8 @@ a:hover {
 /* PRODUTOS */
 
 .h1 {
-    padding-left: 200px;
-    font-size: 32px;
-    padding-top: 60px;
-    background-image: linear-gradient(0, #ffffff 0, #ffffff 50%, #faf6f7 100%);
-    margin-top: 0px;
+    padding-left: 150px;
+    box-sizing: border-box;
 }
 
 .prodrow {
@@ -67,6 +64,7 @@ a:hover {
     padding-left: 150px;
     padding-right: 150px;
     box-sizing: border-box;
+
 }
 
 .prodcolumn {
@@ -104,6 +102,15 @@ a:hover {
     width: 100%;
     height: auto;
     object-fit: cover; 
+}
+
+.prodbutton {
+    color: white;
+    background-color: #FF0077;
+    border-radius: 10px;
+    width: 110px;
+    height: 30px;
+    border: none;
 }
 
 .buttondiv {
