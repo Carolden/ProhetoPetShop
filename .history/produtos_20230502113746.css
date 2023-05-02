@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+/* HEADER */
+
+.logocolored {
+    width: 300px;
+}
+
+.headerrow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 12px;
+    color: #382c32;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a.active {
+    color: white;
+    background-color: #FF0077;;
+    padding-top: 100%;
+    padding-bottom: 33px;
+}
+
+a.active:hover {
+    color: white
+}
+
+a:hover {
+    color: #FF0077;;
+}
+
+.headercolumn {
+    width: 50%;
+    padding-left: 150px;
+}
+
+/* PRODUTOS */
+
+.h1 {
+    padding-left: 200px;
+    font-size: 32px;
+    padding-top: 60px;
+    background-image: linear-gradient(0, #ffffff 0, #ffffff 50%, #faf6f7 100%);
+    margin-top: 0px;
+}
+
+.prodrow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    box-sizing: border-box;
+}
+
+.prodcolumn {
+    width: 16.66%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.prodcolumn:hover {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.prodcolumn:hover img {
+    opacity: 30%;
+}
+
+
+.prodcolumn p {
+    font-size: 14px;
+    text-align: center;
+    color: #858585;
+    height: 100px;
+}
+
+.prodcolumn h4 {
+    text-align: center;
+    color: #FF0077;
+    font-size: 16px;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.prodcolumn img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+
+.buttondiv {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+/* FOOTER */
+
+.footerrow {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.logofooter {
+    width: 300px;
+}
+
+.footer {
+    background-color: #FF0077;
+    width: 100%;
+    padding: 130px 230px 80px 230px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.footer h4 {
+    font-size: 18px;
+}
+
+.footercolumn {
+    width: 33.33%;
+    align-items: center;
+    text-align: right;
+    font-size: 16px;
+}
+
+.contato {
+    text-align: left;
+}
+
+.horario {
+    text-align: center;
+}
+
+.socialmedia {
+    text-align: right;
+}
+
+.footercolumn i {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.copy-line {
+    color: #ffd8ea;
+    opacity: 30%;
+}
+
+.devdbycrie {
+    border-top: 2px solid rgb(255, 0, 136);
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.footercolumn i:hover {
+    transform: scale(1.5) rotate(10deg);
+}

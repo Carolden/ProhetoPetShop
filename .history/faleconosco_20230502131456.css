@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+/* HEADER */
+
+.logocolored {
+    width: 300px;
+}
+
+.headerrow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 12px;
+    color: #382c32;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a.active {
+    color: white;
+    background-color: #FF0077;;
+    padding-top: 100%;
+    padding-bottom: 33px;
+}
+
+a.active:hover {
+    color: white
+}
+
+a:hover {
+    color: #FF0077;;
+}
+
+.headercolumn {
+    width: 50%;
+    padding-left: 150px;
+}
+
+/* CONTATO */
+
+.row {
+    width: 100%;
+    display: flex;
+
+}
+
+.column-form {
+    width: 60%;
+    padding-left: 150px;
+}
+
+.column-contact {
+    width: 40%;
+    box-sizing: border-box;
+    padding-right: 150px;
+}
+
+.input {
+    width: 80%;
+    height: 35px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.textarea {
+    width: 80%;
+    height: 120px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footerrow {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.logofooter {
+    width: 300px;
+}
+
+.footer {
+    background-color: #FF0077;
+    width: 100%;
+    padding: 130px 230px 80px 230px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.footer h4 {
+    font-size: 18px;
+}
+
+.footercolumn {
+    width: 33.33%;
+    align-items: center;
+    text-align: right;
+    font-size: 16px;
+}
+
+.contato {
+    text-align: left;
+}
+
+.horario {
+    text-align: center;
+}
+
+.socialmedia {
+    text-align: right;
+}
+
+.footercolumn i {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.copy-line {
+    color: #ffd8ea;
+    opacity: 30%;
+}
+
+.devdbycrie {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.footercolumn i:hover {
+    transform: scale(1.5) rotate(10deg);
+}
