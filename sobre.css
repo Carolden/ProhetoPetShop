@@ -59,6 +59,7 @@ a:hover {
     padding-top: 100px;
     padding-bottom: 60px;
     background-image: linear-gradient(0, #ffffff 0, #ffffff 50%, #faf6f7 100%);
+    flex-wrap: wrap;
 
 }
 
@@ -89,6 +90,7 @@ a:hover {
 .footerrow {
     display: flex;
     padding-bottom: 60px;
+    flex-wrap: wrap;
 }
 
 .logofooter {
@@ -101,6 +103,7 @@ a:hover {
     padding: 130px 230px 80px 230px;
     box-sizing: border-box;
     color: white;
+    flex-wrap: wrap;
 }
 
 .footer h4 {
@@ -144,4 +147,61 @@ a:hover {
 
 .footercolumn i:hover {
     transform: scale(1.5) rotate(10deg);
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width: 480px) {
+
+    .column {
+        width: 100%;
+    }
+
+    .column .img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .columntext {
+        padding-right: 50px;
+    }
+
+    .row {
+        padding: 0px;
+    }
+
+    .botao {
+        margin-bottom: 30px;
+    }
+
+    .footercolumn {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 50px;
+    }
+
+    .footercolumn .displaynone {
+        display: none;
+    }
+
+    .logofooter {
+        width: 150px;
+    }
+
+    .centraliza {
+        text-align: center;
+    }
+
+    .contato {
+        text-align: center;
+    }
+
+    .footercolumn {
+        text-align: center;
+    }
+
 }

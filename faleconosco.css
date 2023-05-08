@@ -132,23 +132,12 @@ label {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER */
 
 .footerrow {
     display: flex;
     padding-bottom: 60px;
+    flex-wrap: wrap;
 }
 
 .logofooter {
@@ -161,6 +150,7 @@ label {
     padding: 130px 230px 80px 230px;
     box-sizing: border-box;
     color: white;
+    flex-wrap: wrap;
 }
 
 .footer h4 {
@@ -204,4 +194,46 @@ label {
 
 .footercolumn i:hover {
     transform: scale(1.5) rotate(10deg);
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 480px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .column {
+        padding-left: 50px;
+        width: 100%;
+    }
+
+    .footercolumn {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 50px;
+    }
+
+    .footercolumn .displaynone {
+        display: none;
+    }
+
+    .logofooter {
+        width: 150px;
+    }
+
+    .centraliza {
+        text-align: center;
+    }
+
+    .contato {
+        text-align: center;
+    }
+
+    .footercolumn {
+        text-align: center;
+    }
+
 }

@@ -117,6 +117,7 @@ a:hover {
 .footerrow {
     display: flex;
     padding-bottom: 60px;
+    flex-wrap: wrap;
 }
 
 .logofooter {
@@ -129,6 +130,7 @@ a:hover {
     padding: 130px 230px 80px 230px;
     box-sizing: border-box;
     color: white;
+    flex-wrap: wrap;
 }
 
 .footer h4 {
@@ -173,3 +175,50 @@ a:hover {
 .footercolumn i:hover {
     transform: scale(1.5) rotate(10deg);
 }
+
+/* RESPONSIVO */
+
+@media (max-width: 480px) {
+  
+    .prodrow {
+        flex-wrap: wrap;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .prodcolumn {
+        width: 50%; 
+    }
+  
+    .h1 {
+        padding-left: 70px;
+    }    
+  
+    .footercolumn {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 50px;
+    }
+
+    .footercolumn .displaynone {
+        display: none;
+    }
+
+    .logofooter {
+        width: 150px;
+    }
+
+    .centraliza {
+        text-align: center;
+    }
+
+    .contato {
+        text-align: center;
+    }
+
+    .footercolumn {
+        text-align: center;
+    }
+} 
