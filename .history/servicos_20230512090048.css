@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+/* MENU HAMBURGUER */
+
+.toggle-button {
+    display: none;
+    position: absolute;
+    left: 20px;
+    align-items: center;
+}
+
+.toggle-checkbox {
+    display: none;
+}
+
+/* HEADER */
+
+.logocolored {
+    width: 300px;
+}
+
+.headerrow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 12px;
+    color: #382c32;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a.active {
+    color: white;
+    background-color: #FF0077;;
+    padding-top: 100%;
+    padding-bottom: 33px;
+}
+
+a.active:hover {
+    color: white
+}
+
+a:hover {
+    color: #FF0077;;
+}
+
+.headercolumn {
+    width: 50%;
+    padding-left: 150px;
+}
+
+/* MAIN */
+
+.row:first-child {
+    background-image: linear-gradient(0, #ffffff 0, #ffffff 50%, #faf6f7 100%);
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.row p {
+    font-size: 20px;
+    opacity: 80%;
+}
+
+.h2-pink{
+    color: #FF0077;
+}
+
+.img-left {
+    height: 550px;
+    width: 40%;
+    object-fit: cover;
+}
+
+.column-text-right {
+    padding-left: 40px;
+    padding-top: 30px;
+    width: 60%;
+}
+
+.img-right {
+    height: 550px;
+    width: 40%;
+    object-fit: cover;
+}
+
+.column-text-left {
+    width: 60%;
+    text-align: right;
+    padding-right: 40px;
+    background-color: #FF0077;
+    color: white;
+    padding-top: 80px;
+}
+
+
+.column-text-right-2 {
+    color: white;
+    background-color: #0077ff;;
+    padding-left: 40px;
+    padding-top: 80px;
+    width: 60%;
+}
+
+.column-text-left-2 {
+    width: 60%;
+    text-align: right;
+    padding-right: 40px;
+    background-color: #FF320D;
+    color: white;
+    padding-top: 150px;
+}
+
+.column-text-right-3 {
+    color: white;
+    background-color: #C10DFF;;
+    padding-left: 40px;
+    padding-top: 80px;
+    width: 60%;
+}
+
+.column-text-left-3 {
+    width: 60%;
+    text-align: right;
+    padding-right: 40px;
+    background-color: #6cf515;
+    color: white;
+    padding-top: 130px;
+}
+
+.column-text-right-4 {
+    color: white;
+    background-color: rgb(61, 46, 53);
+    padding-left: 40px;
+    padding-top: 150px;
+    width: 60%;
+}
+
+/* FOOTER */
+
+.footerrow {
+    display: flex;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.logofooter {
+    width: 300px;
+}
+
+.footer {
+    background-color: #FF0077;
+    width: 100%;
+    padding: 130px 230px 80px 230px;
+    box-sizing: border-box;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.footer h4 {
+    font-size: 18px;
+}
+
+.footercolumn {
+    width: 33.33%;
+    align-items: center;
+    text-align: right;
+    font-size: 16px;
+}
+
+.contato {
+    text-align: left;
+}
+
+.horario {
+    text-align: center;
+}
+
+.socialmedia {
+    text-align: right;
+}
+
+.footercolumn i {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.copy-line {
+    color: #ffd8ea;
+    opacity: 30%;
+}
+
+.devdbycrie {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.footercolumn i:hover {
+    transform: scale(1.5) rotate(10deg);
+}
+
+@media (max-width: 480px) {
+    
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .column-text-left {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .column-text-right {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .img-left {
+        width: 100%;
+        height: 270px;
+    }
+
+    .img-right {
+        width: 100%;
+        height: 270px;
+    }
+
+    .medicalcenter {
+        flex-direction: column-reverse;
+    }
+
+    .column-text-left {
+        text-align: left;
+    }
+
+    .column-text-left {
+        padding: 50px;
+    }
+
+    .column-text-right {
+        padding: 50px;
+    }
+
+    .column-text-left p {
+        padding-right: 100px;
+    }
+
+    .delivery {
+        flex-direction: column-reverse;
+    }
+
+    .creche {
+        flex-direction: column-reverse;
+    }
+    
+    .footercolumn {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 50px;
+    }
+
+    .footercolumn .displaynone {
+        display: none;
+    }
+
+    .logofooter {
+        width: 150px;
+    }
+
+    .centraliza {
+        text-align: center;
+    }
+
+    .contato {
+        text-align: center;
+    }
+
+    .footercolumn {
+        text-align: center;
+    }
+
+    /* MENU HAMBURGUER */
+
+
+    .toggle-button {
+        display: block;
+        transform: rotate(90deg);
+        font-weight: 600;
+        position: absolute;
+        left: 40px;
+        font-size: 20px;
+        top: -5px;
+    }
+
+    .headercolumn {
+        padding: 0;
+    }
+
+    a.active {
+        padding: 30px;
+        width: 80%;
+        justify-content: center;
+        display: flex;
+    }
+
+
+    .headerrow {
+        display: flex;
+        justify-content: center;
+    }
+
+    header nav {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        align-items: center;
+        top: 80px;
+        background-color: white;
+        display: none;
+        display: flex;
+        flex-direction: column;
+        transform: translateX(-100vw);
+        transition: all 0.5s ease;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    header nav a {
+        margin: 10px;
+    }
+
+    .toggle-checkbox:checked ~ .headerrow nav {
+        display: flex;
+        transform: translateX(0);
+    }
+}

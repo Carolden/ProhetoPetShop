@@ -1,0 +1,374 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+/* MENU HAMBURGUE */
+
+.toggle-button {
+    display: none;
+    position: absolute;
+    left: 20px;
+    align-items: center;
+}
+
+.toggle-checkbox {
+    display: none;
+}
+
+
+/* HEADER */
+
+.logocolored {
+    width: 300px;
+}
+
+.headerrow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 12px;
+    color: #382c32;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a.active {
+    color: white;
+    background-color: #FF0077;;
+    padding-top: 100%;
+    padding-bottom: 33px;
+}
+
+a.active:hover {
+    color: white
+}
+
+a:hover {
+    color: #FF0077;;
+}
+
+.headercolumn {
+    width: 50%;
+    padding-left: 150px;
+    align-items: center;
+}
+
+/* BANNER */
+
+.banner{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+/* SERVIÇOS */
+
+.servicesrow {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.servicescolumn {
+    width: 25%; 
+    text-align: center;
+}
+
+.servicescolumn h3 {
+    color: #FF0077;
+    font-size: 18px;
+}
+
+.servicescolumn p {
+    color: #858585;
+    font-size: 16px;
+}
+
+.servicescolumn i {
+    color: #FF0077;
+    font-size: 70px;
+}
+
+.servicescolumn i:hover {
+    transform: scale(1.5) rotate(10deg);
+}
+
+/* LOGO BRANCA */
+
+.h1 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.logowhite {
+    width: 300px;   
+}
+
+.logowhitetext {
+    background-color: #0077ff;
+    width: 100%;
+    padding: 130px 230px 130px 230px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.container {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* PRODUTOS */
+
+.prodrow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.prodcolumn {
+    width: 16.66%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.prodcolumn:hover {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.prodcolumn:hover img {
+    opacity: 30%;
+}
+
+
+.prodcolumn p {
+    font-size: 14px;
+    text-align: center;
+    color: #858585;
+    height: 100px;
+}
+
+.prodcolumn h4 {
+    text-align: center;
+    color: #FF0077;
+    font-size: 16px;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.prodcolumn img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+
+.prodbutton {
+    color: white;
+    background-color: #FF0077;
+    border-radius: 10px;
+    width: 110px;
+    height: 30px;
+    border: none;
+}
+
+.buttondiv {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+/* FOOTER */
+
+.footerrow {
+    display: flex;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.logofooter {
+    width: 300px;
+}
+
+.footer {
+    background-color: #FF0077;
+    width: 100%;
+    padding: 130px 230px 80px 230px;
+    box-sizing: border-box;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.footer h4 {
+    font-size: 18px;
+}
+
+.footercolumn {
+    width: 33.33%;
+    align-items: center;
+    text-align: right;
+    font-size: 16px;
+}
+
+.contato {
+    text-align: left;
+}
+
+.horario {
+    text-align: center;
+}
+
+.socialmedia {
+    text-align: right;
+}
+
+.footercolumn i {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.copy-line {
+    color: #ffd8ea;
+    opacity: 30%;
+}
+
+.devdbycrie {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.footercolumn i:hover {
+    transform: scale(1.5) rotate(10deg);
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width: 480px){
+
+    .servicescolumn {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .banner {
+        height: 400px;
+    }
+
+    .logowhitetext {
+        margin-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+/* SEÇÃO PRODUTOS */
+
+    .prodcolumn {
+        width: 50%;
+    }
+
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+/* FOOTER */
+
+    .footercolumn {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 50px;
+    }
+
+    .footercolumn .displaynone {
+        display: none;
+    }
+
+    .logofooter {
+        width: 150px;
+    }
+
+    .centraliza {
+        text-align: center;
+    }
+
+    .contato {
+        text-align: center;
+    }
+
+    .footercolumn {
+        text-align: center;
+    }
+
+
+
+    /* MENU HAMBURGUER */
+    
+
+    .toggle-button {
+        display: block;
+        transform: rotate(90deg);
+        font-weight: 600;
+    }
+
+    header nav {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        align-items: center;
+        top: 80px;
+        background-color: white;
+        display: none;
+        display: flex;
+        flex-direction: column;
+        transform: translateX(-100vw);
+        transition: all 0.5s ease;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    header nav a {
+        margin: 10px;
+    }
+
+    .toggle-checkbox:checked ~ .headerrow nav {
+        display: flex;
+        transform: translateX(0);
+    }
+
+}
+
+
+
